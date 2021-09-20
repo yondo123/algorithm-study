@@ -28,4 +28,7 @@ public class PG_World {
 
 	}
 
-public static void main(String[] args) {
+	public static void main(String[] args) {
+		solution(30);
+	}
+}
