@@ -1,35 +1,36 @@
 /**
+ * @desc problem : 오픈 챗팅방
  * @desc site : programmers
  * @desc level: 2
  * @desc url  : https://programmers.co.kr/learn/courses/30/lessons/42888
  */
-const example = ["Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"];
+const example = ['Enter uid1234 Muzi', 'Enter uid4567 Prodo', 'Leave uid1234', 'Enter uid1234 Prodo', 'Change uid4567 Ryan'];
 
 function solution(record) {
     let userIndex = new Map();
     const answer = [];
     for (let i = 0; i < record.length; i++) {
-        const recordItem = record[i].split(" ");
+        const recordItem = record[i].split(' ');
         const status = recordItem[0];
         const userId = recordItem[1];
         const userName = recordItem[2];
-        let context = "";
+        let context = '';
 
         if (userName) {
             userIndex.set(userId, userName);
-            if (status == "Enter") {
-                context = "들어왔습니다.";
+            if (status == 'Enter') {
+                context = '들어왔습니다.';
                 answer.push(`${userId} ${context}`);
             }
         } else {
-            context = "나갔습니다.";
+            context = '나갔습니다.';
             answer.push(`${userId} ${context}`);
         }
     }
 
     answer.forEach((item, index, array) => {
-        const userId = item.split(" ")[0];
-        array[index] = `${userIndex.get(userId)}님이 ${item.split(" ")[1]}`;
+        const userId = item.split(' ')[0];
+        array[index] = `${userIndex.get(userId)}님이 ${item.split(' ')[1]}`;
     });
     console.log(JSON.stringify(answer));
     return answer;
