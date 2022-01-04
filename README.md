@@ -6,6 +6,7 @@
 + [**차량 10부제**](basic/section-1/car-rotation.js)
 + [**일곱 난장이**](basic/section-1/seven-dwarfs.js)
 + [**A를 #으로**](basic/section-1/a-to-poundkey.js)
++ [**문자 찾기**](basic/section-1/find-char.js.js)
 
 
 ### queue, stack
