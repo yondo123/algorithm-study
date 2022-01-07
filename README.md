@@ -7,7 +7,8 @@
 + [**일곱 난장이**](basic/section-1/seven-dwarfs.js)
 + [**A를 #으로**](basic/section-1/a-to-poundkey.js)
 + [**문자 찾기**](basic/section-1/find-char.js)
-+ [**대문자 찾기**](basic/section-1/find-uppercase.js)
++ [**대문자 찾기**](basic/section-1/find-uppercase.js)  
++ [**가운데 문자 출력**](basic/section-1/print-out.js.js)
 
 
 ### queue, stack
