@@ -2,7 +2,7 @@
  * @desc problem : 가운데 문자 출력
  * @desc site : Olympiad
  * @desc level: 1
- * @desc problem :
+ * @desc problem : subString으로 푸는 방법이 효율적이다.. 단순하게 접근하자..
  */
 
 /**
