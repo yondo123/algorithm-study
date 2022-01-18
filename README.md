@@ -12,6 +12,9 @@
 + [**중복문자제거**](basic/section-1/remove-duplicate-text.js)
 + [**중복단어제거**](basic/section-1/remove-duplicate-word.js)
 
+### 2차원 탐색
++ [**큰 수 찾기**](basic/section-2/big-number.js)
+
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)
