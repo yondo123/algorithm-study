@@ -15,6 +15,7 @@
 ### 2차원 탐색
 + [**큰 수 찾기**](basic/section-2/big-number.js)
 + [**보이는 학생**](basic/section-2/student.js)
++ [**가위바위보**](basic/section-2/rock-paper-scissors.js)
 
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
