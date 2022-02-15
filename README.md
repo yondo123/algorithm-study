@@ -17,6 +17,7 @@
 + [**보이는 학생**](basic/section-2/student.js)
 + [**가위바위보**](basic/section-2/rock-paper-scissors.js)
 + [**점수 계산**](basic/section-2/calculate-score.js)
++ [**등수 구하기**](basic/section-2/ranking.js)
 
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
