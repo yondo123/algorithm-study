@@ -21,6 +21,7 @@
 + [**봉우리 갯수 구하기**](basic/section-2/sum-peak.js)  
 ### 문자열 탐색
 + [**회문 문자열**](basic/section-3/palindrome.js)
++ [**유효한 회문 문자열**](basic/section-3/palindrome2.js)
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)
