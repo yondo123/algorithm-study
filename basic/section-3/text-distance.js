@@ -35,4 +35,4 @@ function solution(str, target) {
 }
 
 const answer = solution('supermario', 'r');
-console.log(answer); //208
+console.log(answer); //4 3 2 1 0 1 1 0 1 2
