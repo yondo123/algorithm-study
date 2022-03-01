@@ -2,7 +2,7 @@
  * @desc problem : 유효한 회문 문열
  * @desc site : Olympiad
  * @desc level: 3
- * @desc solution : 아스키코드를 이용한 문자열 변환
+ * @desc solution : 아스키코드를 이용한 문자열 판독
  */
 
 /**
