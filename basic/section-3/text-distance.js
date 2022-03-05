@@ -2,7 +2,7 @@
  * @desc problem : 가장 짧은 문자거리
  * @desc site : Olympiad
  * @desc level: 3
- * @desc solution : 이중순회, MAth.abs
+ * @desc solution : 정순회 후 역순회
  */
 
 /**
@@ -11,25 +11,32 @@
  * @param {string} target : 탐색 문자
  */
 function solution(str, target) {
+    const answer = [];
     const strArray = str.trim().split('');
-    let answer = '';
+    let pos = 100;
 
-    strArray.forEach(function (item, index, array) {
-        let distance = -1;
-        for (let j = 0; j < array.length; j++) {
-            if (array[j] === target) {
-                //탐색 거리
-                const pos = Math.abs(index - j);
-
-                //한번도 방문하지 않았거나 탐색 거리가 더 짧을 때 변수에 저장
-                if (distance < 0 || distance > pos) {
-                    distance = pos;
-                }
-            }
+    //정순회
+    for (let i = 0; i < strArray.length; i++) {
+        const char = strArray[i];
+        if (char === target) {
+            pos = 0;
+        } else {
+            pos++;
         }
-
-        answer += distance.toString() + ' ';
-    });
+        answer.push(pos);
+    }
+    pos = 100;
+    //역순회
+    for (let j = strArray.length - 1; j >= 0; j--) {
+        const char = strArray[j];
+        if (char === target) {
+            pos = 0;
+            answer.push(pos);
+        } else {
+            pos++;
+            answer[j] = Math.min(answer[j], pos);
+        }
+    }
 
     return answer;
 }
