@@ -23,6 +23,7 @@ function solution(str) {
             continue;
         }
 
+        //비교대상이 달라질 때 (결과 저장)
         if (compareChar !== char) {
             answer.push(compareChar);
             if (temp.length > 1) {
@@ -33,6 +34,7 @@ function solution(str) {
         temp.push(char);
     }
 
+    //나머지 배열 처리
     if (temp.length > 1) {
         answer.push(temp.length);
     }
