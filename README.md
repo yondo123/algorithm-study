@@ -24,6 +24,7 @@
 + [**유효한 회문 문자열**](basic/section-3/palindrome2.js)
 + [**숫자만 추출**](basic/section-3/number-extraction.js)
 + [**가장 짧은 문자거리**](basic/section-3/text-distance.js)
++ [**문자열 압축**](basic/section-3/string-compression.js)
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)
