@@ -10,23 +10,29 @@
  * @param {array} test : 시험결과
  */
 function solution(test) {
-    const testCase = test[0].toString().split('').length;
+    const testLength = test[0].toString().split('').length;
+    const answer = [];
 
-    for (let i = 1; i <= testCase; i++) {
+    for (let i = 1; i <= testLength; i++) {
+        console.log('대상', i);
         const mentee = [];
-        test.forEach(function (item) {
-            let checkFlag = false;
-            for (const char of item.toString()) {
-                if (checkFlag) {
+        for (let j = 0; j < test.length; j++) {
+            const testCase = test[j];
+            let isCheck = false;
+
+            for (const char of testCase.toString()) {
+                console.log(mentee);
+
+                if (isCheck) {
                     mentee.push(char);
                 }
-                if (!checkFlag && Number(char) == i) {
-                    checkFlag = true;
+
+                if (!isCheck && Number(char) == i) {
+                    isCheck = true;
                 }
             }
-        });
-        console.log(mentee);
-        console.log('대상', i);
+
+        }
         console.log('===========');
     }
 }
