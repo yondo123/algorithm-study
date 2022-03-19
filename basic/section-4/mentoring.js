@@ -10,32 +10,27 @@
  * @param {array} test : 시험결과
  */
 function solution(test) {
-    const testLength = test[0].toString().split('').length;
-    const answer = [];
+    const testCase = [];
+    //경우의 수를 구하기 위한 테스트케이스 2차원 배열 생성
+    test.forEach(function (item) {
+        this.push(item.toString().split(""));
+    }, testCase);
 
-    for (let i = 1; i <= testLength; i++) {
-        console.log('대상', i);
-        const mentee = [];
-        for (let j = 0; j < test.length; j++) {
-            const testCase = test[j];
-            let isCheck = false;
+    const person = testCase[0].length;
 
-            for (const char of testCase.toString()) {
-                console.log(mentee);
+    for (let p = 0; p < person; p++) {
+        const mento = (p + 1).toString();
+        let count = 0;
 
-                if (isCheck) {
-                    mentee.push(char);
-                }
-
-                if (!isCheck && Number(char) == i) {
-                    isCheck = true;
+        for (let i = 0; i < test.length; i++) {
+            for (let j = 0; j < person; j++) {
+                if(mento === testCase[i][j]){
+                    console.log(mento, "정답");
                 }
             }
-
         }
-        console.log('===========');
     }
 }
 
 const answer = solution([3412, 4321, 3142]);
-console.log(answer); //23 2 73 2 3
+// console.log(answer); //23 2 73 2 3
