@@ -1,7 +1,7 @@
 /**
  * @desc problem : 멘토링
  * @desc site : Olympiad
- * @desc level: 3
+ * @desc level: 4
  * @desc solution : 4차원 배열 (모든 경우의 수 탐색)
  */
 
