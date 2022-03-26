@@ -31,6 +31,7 @@
 + [**뒤집은 소수**](basic/section-4/reverse-primenumber.js) 
 + [**멘토링**](basic/section-4/mentoring.js)
 + [**졸업선물**](basic/section-4/graduation-present.js)
++ [**k번째 수**](basic/section-4/k-order.js)
 
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
