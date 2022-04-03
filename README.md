@@ -33,6 +33,9 @@
 + [**졸업선물**](basic/section-4/graduation-present.js)
 + [**k번째 수**](basic/section-4/k-order.js)
 
+### 투포인터 알고리즘
++ [**두 배열 합치기**](basic/section-5/merge-array.js)
+
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)

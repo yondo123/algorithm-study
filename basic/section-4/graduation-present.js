@@ -2,7 +2,7 @@
  * @desc problem : 졸업선물
  * @desc site : Olympiad
  * @desc level: 4
- * @desc solution : 3차원배열 + 완전탐색
+ * @desc solution : 2차원배열 + 완전탐색
  */
 
 /**
