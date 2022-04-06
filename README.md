@@ -35,6 +35,7 @@
 
 ### 투포인터 알고리즘
 + [**두 배열 합치기**](basic/section-5/merge-array.js)
++ [**공통 원소 구하기**](basic/section-5/collection-sort.js)
 
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
