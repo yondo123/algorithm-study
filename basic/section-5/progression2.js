@@ -1,8 +1,8 @@
 /**
  * @desc problem : 연속 부분수열 2
  * @desc site : Olympiad
- * @desc level: 3
- * @desc solution :
+ * @desc level: 4
+ * @desc solution : 투 포인터 알고리즘
  */
 
 /**
@@ -11,30 +11,27 @@
  * @param {number} max : 합계 숫자
  */
 function solution(numArray, max) {
-    const answer = [];
     let left = 0;
     let right = 0;
     let sum = 0;
+    let count = 0;
 
     while (right < numArray.length) {
-        const rightProp = numArray[right];
-
+        //연속수열갯수 : right - left +1
         sum += numArray[right];
-
         if (sum <= max) {
-            right++;
-            answer.push(rightProp);
+            count += right - left + 1;
+        } else {
+            //수열 합이 기준 값보다 큰 경우, left를 한 칸씩 증가한다.
+            while (sum > max) {
+                sum -= numArray[left++];
+            }
+            count += right - left + 1;
         }
-        sum = 0;
-        while (left > right) {
-            sum += numArray[left++];
-            console.log('SUM', sum);
-            console.log('left', left);
-            console.log('right', right);
-        }
+        right++;
     }
-    console.log(answer);
-    // return answer.length;
+
+    return count;
 }
 
 const answer = solution([1, 3, 1, 2, 3], 5);
