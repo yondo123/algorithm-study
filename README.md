@@ -40,6 +40,9 @@
 + [**연속 부분 수열(2) - 특정 숫자 이하 계산**](basic/section-5/progression2.js)
 + [***최대 매출*](basic/section-5/maximum-sales.js)
 
+### Hash
++ [**학급회장 투표**](basic/section-5/vote.js)
+
 
 ### queue, stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
