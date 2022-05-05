@@ -42,6 +42,7 @@
 
 ### Hash
 + [**학급회장 투표**](basic/section-5/vote.js)
++ [**아나그램**](basic/section-5/anagram.js)
 
 
 ### queue, stack
