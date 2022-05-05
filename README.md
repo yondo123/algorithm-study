@@ -38,7 +38,7 @@
 + [**공통 원소 구하기**](basic/section-5/collection-sort.js)
 + [**연속 부분 수열**](basic/section-5/progression.js)
 + [**연속 부분 수열(2) - 특정 숫자 이하 계산**](basic/section-5/progression2.js)
-+ [***최대 매출*](basic/section-5/maximum-sales.js)
++ [**최대 매출**](basic/section-5/maximum-sales.js)
 
 ### Hash
 + [**학급회장 투표**](basic/section-5/vote.js)

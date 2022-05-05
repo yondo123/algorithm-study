@@ -14,6 +14,7 @@ function solution(wordA, wordB) {
     const wordMap = new Map();
     let answer = 'YES';
 
+    //비교 대상 길이가 다르면 거짓
     if (wordA.length !== wordB.length) {
         answer = 'NO';
     } else {
