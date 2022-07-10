@@ -51,6 +51,7 @@
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)
 + [**프린터 큐**](/javascript/BOJ_PrinterQueue.js)
++ [**올바른 괄호**](/basic/section-6/bracket.js)
 
 ### sort
 + [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
