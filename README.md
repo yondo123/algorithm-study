@@ -53,6 +53,7 @@
 + [**프린터 큐**](/javascript/BOJ_PrinterQueue.js)
 + [**올바른 괄호**](/basic/section-6/bracket.js)
 + [**괄호문자제거**](/basic/section-6/bracket-remove.js)
++ [**후위식 연산**](/basic/section-6/postfix.js)
 
 ### sort
 + [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
