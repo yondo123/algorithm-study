@@ -47,7 +47,7 @@
 ### Sliding Window
 + [**모든 아나그램**](basic/section-5/all-anagram.js)
 
-### queue, stack
+### Stack
 + [**VPS**](/javascript/BOJ_Vps.js)  
 + [**다리를 지나는 트럭**](/javascript/PG_Truck.js)
 + [**프린터 큐**](/javascript/BOJ_PrinterQueue.js)
@@ -55,6 +55,9 @@
 + [**괄호문자제거**](/basic/section-6/bracket-remove.js)
 + [**후위식 연산**](/basic/section-6/postfix.js)
 + [**쇠막대기 자르기**](/basic/section-6/iron-stick.js)
+
+### Queue
++ [**공주 구하기**](/basic/section-6/princess.js)
 
 ### sort
 + [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
