@@ -58,6 +58,7 @@
 
 ### Queue
 + [**공주 구하기**](/basic/section-6/princess.js)
++ [*교육과정 설계 **](/basic/section-6/course.js.js)
 
 ### sort
 + [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
