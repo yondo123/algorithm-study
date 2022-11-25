@@ -2,7 +2,7 @@
  * @desc problem : 택배 상자
  * @desc site : Programmers
  * @desc level: 2
- * @desc solution : Queue
+ * @desc solution : Stack
  */
 
 /**
@@ -10,21 +10,46 @@
  * @param {array} orderList : 상자 순서 배열
  */
 function solution(orderList) {
-    let lastOrder = 0;
-    let count = 0;
-    while (orderList.length) {
-        const order = orderList.shift();
-        if (!count || lastOrder - 1 === order) {
-            lastOrder = order;
+    console.log('orderList', orderList);
+    const orderLength = orderList.length;
+    const temp = [];
+    let count = 1;
+    let answer = 0;
+    let order = orderList[answer];
+
+    while (order) {
+        console.log('loop', count, 'order', order, 'orderList', orderList, 'temp', temp);
+        console.log('answer! ', answer);
+
+        if (order === count) {
+            answer++;
+            order = orderList[answer];
             count++;
             continue;
         }
 
-        break;
+        if (order === temp[temp.length - 1]) {
+            answer++;
+            temp.pop();
+            order = orderList[answer];
+            continue;
+        } else if (order < temp[temp.length - 1]) {
+            break;
+        }
+
+        if (count <= orderLength) {
+            temp.push(count);
+        }
+
+        count++;
+
+        console.log('* answer > ', answer);
+        console.log('======================');
     }
 
-    return count;
+    console.log('last! answer > ', answer);
+    console.log('======================');
+    return answer;
 }
 
-const answer = solution([4, 3, 1, 2, 5]);
-console.log(answer);
+const answer = solution([2, 1, 4, 3, 6, 5, 8, 7, 10, 9]);
