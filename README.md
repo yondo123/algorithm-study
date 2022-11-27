@@ -4,6 +4,11 @@
 
 ## 유형별 풀이
 
+## 구현
+
+-   [**수박수박수박수**](programmers/watermelon.js)
+-   [**나머지가 1인 수**](programmers/remainder-only-one.js)
+
 ### 탐색
 
 -   [**차량 10부제**](basic/section-1/car-rotation.js)
