@@ -84,3 +84,6 @@
 ### sort
 
 -   [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
+
+### 동적 계획법
+-   [**멀리 뛰기**](/programmers/jump.js)
