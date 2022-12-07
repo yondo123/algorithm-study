@@ -14,6 +14,7 @@
  */
 function solution(want, number, discount) {
     const slice = 10;
+    let answer = 0;
     let productMap = new Map();
 
     //array to map
@@ -22,13 +23,21 @@ function solution(want, number, discount) {
     });
 
     for (let index = 0; index < slice; index++) {
-        if (!want.length) {
-            return 1;
-        }
+        let nextFlag = true;
         const product = discount[index];
 
         if (productMap.has(product)) {
             productMap.set(product, productMap.get(product) - 1);
+        }
+
+        for (let count of productMap.values()) {
+            if (count > 0) {
+                nextFlag = false;
+            }
+        }
+
+        if (nextFlag) {
+            answer++;
         }
     }
 
@@ -36,19 +45,7 @@ function solution(want, number, discount) {
         let nextFlag = true;
         const product = discount[index];
         const prevProduct = discount[index - slice];
-        // console.log(index - slice + 2 + "회차");
-        // console.log(prevProduct, product);
 
-        for (let count of productMap.values()) {
-            if (count > 0) {
-                nextFlag = false;
-                break;
-            }
-        }
-
-        if (nextFlag) {
-            return index - slice + 1;
-        }
         if (productMap.has(prevProduct)) {
             productMap.set(prevProduct, productMap.get(prevProduct) + 1);
         }
@@ -56,15 +53,39 @@ function solution(want, number, discount) {
         if (productMap.has(product)) {
             productMap.set(product, productMap.get(product) - 1);
         }
+
+        for (let count of productMap.values()) {
+            if (count > 0) {
+                nextFlag = false;
+            }
+        }
+
+        if (nextFlag) {
+            answer++;
+        }
     }
 
-    return 1;
+    return answer;
 }
-
 const answer = solution(
-    ["banana", "apple", "rice", "pork", "pot"],
+    ['banana', 'apple', 'rice', 'pork', 'pot'],
     [3, 2, 2, 2, 1],
-    ["chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"]
+    [
+        'banana',
+        'banana',
+        'banana',
+        'apple',
+        'apple',
+        'rice',
+        'rice',
+        'pork',
+        'pork',
+        'pot',
+        'pot',
+        'banana',
+        'apple',
+        'banana'
+    ]
 );
 
 console.log(answer);

@@ -64,6 +64,7 @@
 ### Sliding Window
 
 -   [**모든 아나그램**](basic/section-5/all-anagram.js)
+-   [**할인행사**](basic/../programmers/discount.js)
 
 ### Stack
 
@@ -86,4 +87,5 @@
 -   [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
 
 ### 동적 계획법
+
 -   [**멀리 뛰기**](/programmers/jump.js)
