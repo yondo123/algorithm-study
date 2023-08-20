@@ -1,6 +1,11 @@
+.idea
 input
 template.js
 input.js
 temp.txt
 dummy.txt
+/templates
 /lecture
+/Requriements.md
+/algorithm.iml
+/create-programmers.sh
