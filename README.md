@@ -47,7 +47,7 @@
 -   [**졸업선물**](basic/section-4/graduation-present.js)
 -   [**k번째 수**](basic/section-4/k-order.js)
 
-### 투포인터 알고리즘
+### 투 포인터
 
 -   [**두 배열 합치기**](basic/section-5/merge-array.js)
 -   [**공통 원소 구하기**](basic/section-5/collection-sort.js)
@@ -85,6 +85,10 @@
 ### sort
 
 -   [**중복 빼고 정렬하기(Quick)**](/javascript/BOJ_DuplicateSort.js)
+
+### 깊이 우선 탐색 (DFS)
+- [**이진수 출력**](/basic/section-8/binary-output.js)
+- [**이진 트리 순회**](/basic/section-8/binary-tree.js)
 
 ### 동적 계획법
 
