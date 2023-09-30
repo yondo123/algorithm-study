@@ -89,6 +89,7 @@
 ### 깊이 우선 탐색 (DFS)
 - [**이진수 출력**](/basic/section-8/binary-output.js)
 - [**이진 트리 순회**](/basic/section-8/binary-tree.js)
+- [**부분 집합 구하기**](/basic/section-8/subset.js)
 
 ### 동적 계획법
 
