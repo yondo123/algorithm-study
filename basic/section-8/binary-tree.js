@@ -14,10 +14,10 @@ const solution = (n) => {
     if (n > 7) {
       return;
     }
-    answer.prefix.push(n);
+    answer.prefix.push(n); //전위순회
     dfs(n * 2);
     dfs(n * 2 + 1);
-    answer.postfix.push(n);
+    answer.postfix.push(n); //후위순회
   };
   dfs(n);
   return answer;
