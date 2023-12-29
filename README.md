@@ -92,6 +92,10 @@
 - [**부분 집합 구하기**](/basic/section-8/subset.js)
 - [**타겟 넘버**](/programmers/target-number.js)
 
+### 너비 우선 탐색 (BFS)
+- [**이진 트리 순회(BFS)**](/basic/section-9/binary-tree.js)
+- [**송아지 구하기**](/basic/section-9/find-calf.js)
+- [**Combination Sum**](/leetcode/39-combination-sum.js)
+
 ### 동적 계획법
-****
--   [**멀리 뛰기**](/programmers/jump.js)
+- [**멀리 뛰기**](/programmers/jump.js)
