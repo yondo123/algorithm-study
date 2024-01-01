@@ -91,6 +91,7 @@
 - [**이진 트리 순회**](/basic/section-8/binary-tree.js)
 - [**부분 집합 구하기**](/basic/section-8/subset.js)
 - [**타겟 넘버**](/programmers/target-number.js)
+- [**Permutations(순열 구하기)**](/leetcode/46-permutaions.js)
 
 ### 너비 우선 탐색 (BFS)
 - [**이진 트리 순회(BFS)**](/basic/section-9/binary-tree.js)
