@@ -100,3 +100,6 @@
 
 ### 동적 계획법
 - [**멀리 뛰기**](/programmers/jump.js)
+
+### 탐욕법(greedy)
+- [**Lemonade Change**](/leetcode/860-lemonade-change.js)
