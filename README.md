@@ -55,6 +55,7 @@
 -   [**연속 부분 수열(2) - 특정 숫자 이하 계산**](basic/section-5/progression2.js)
 -   [**최대 매출**](basic/section-5/maximum-sales.js)
 -   [**숫자의 표현**](programmers/numbers.js)
+- [**Longest Repeating Character Replacement**](/leetcode/424-longest-repeating-character-replacement.js)
 
 ### Hash
 
