@@ -4,7 +4,7 @@
 
 ## 유형별 풀이
 
-## 구현
+### 구현
 
 -   [**수박수박수박수**](programmers/watermelon.js)
 -   [**나머지가 1인 수**](programmers/remainder-only-one.js)
@@ -39,7 +39,7 @@
 -   [**가장 짧은 문자거리**](basic/section-3/text-distance.js)
 -   [**문자열 압축**](basic/section-3/string-compression.js)
 
-### Brute Force
+### 완전 탐색
 
 -   [**자릿수의 합**](basic/section-4/digits-sum.js)
 -   [**뒤집은 소수**](basic/section-4/reverse-primenumber.js)
@@ -93,6 +93,8 @@
 - [**부분 집합 구하기**](/basic/section-8/subset.js)
 - [**타겟 넘버**](/programmers/target-number.js)
 - [**Permutations(순열 구하기)**](/leetcode/46-permutaions.js)
+- [**이모티콘 할인행사**](programmers/kakao-emoticon-event.js)
+
 
 ### 너비 우선 탐색 (BFS)
 - [**이진 트리 순회(BFS)**](/basic/section-9/binary-tree.js)
