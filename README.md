@@ -33,6 +33,7 @@
 
 ### 이분 탐색
 - [**Koko Eating Bananas**](leetcode/875-koko-eating-bananas.js)
+- [**Valid Triangle Number**](leetcode/611-valid-triangle-number.js)
 
 ### 문자열 탐색
 
